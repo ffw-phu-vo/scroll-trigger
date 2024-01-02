@@ -56,10 +56,17 @@
 	}
 
   .project-wrap {
-    width: 100vw;
+    width: calc(100vw/4);
+    height: auto;
     padding: 0;
     box-sizing: content-box;
+    aspect-ratio: 270,25/934;
 	}
+
+  .project-wrap:nth-child(1) {
+    width: 100vw;
+    aspect-ratio: 1081/934;
+  }
 
 	.project-wrap img {
 	    width:100%;
